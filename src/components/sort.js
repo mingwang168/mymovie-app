@@ -1,9 +1,6 @@
 import React, { useState } from 'react';
 
 
-
-
-
 const Sort = (props) => {
     const handlesortlist = () => {
         let sortlist = ['vote_average.asc', 'vote_average.desc', 'release_date.asc', 'release_date.desc', 'original_title.asc', 'original_title.desc'];
