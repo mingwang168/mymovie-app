@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.72a9c18e.chunk.css",
+    "main.js": "/static/js/main.c8d8ed25.chunk.js",
+    "main.js.map": "/static/js/main.c8d8ed25.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.42aa781f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.42aa781f.js.map",
+    "static/js/2.177dbe11.chunk.js": "/static/js/2.177dbe11.chunk.js",
+    "static/js/2.177dbe11.chunk.js.map": "/static/js/2.177dbe11.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.a8614cd768126e4a54587ef0c415fbc3.js": "/precache-manifest.a8614cd768126e4a54587ef0c415fbc3.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.72a9c18e.chunk.css.map": "/static/css/main.72a9c18e.chunk.css.map",
+    "static/js/2.177dbe11.chunk.js.LICENSE": "/static/js/2.177dbe11.chunk.js.LICENSE",
+    "static/media/greyheart.png": "/static/media/greyheart.f95ef653.png",
+    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg",
+    "static/media/mylogo.png": "/static/media/mylogo.f9ce2387.png",
+    "static/media/noposter.jpg": "/static/media/noposter.f211ed62.jpg",
+    "static/media/redheart.png": "/static/media/redheart.611dddb6.png",
+    "static/media/styles.css": "/static/media/video-production-4223885_1920.670089f3.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.42aa781f.js",
+    "static/js/2.177dbe11.chunk.js",
+    "static/css/main.72a9c18e.chunk.css",
+    "static/js/main.c8d8ed25.chunk.js"
+  ]
+}

@@ -1,0 +1,117 @@
+.inline{
+    display: flex;
+    flex-wrap:nowrap;
+}
+.optionGroup{
+    position: absolute;
+    right: 10px;
+}
+.movieDetail{
+    margin-top: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    background-color: white;
+}
+.likebox{
+    border: rgb(69, 149, 223) solid 1px;
+    border-radius: 8px;
+    padding: 2%;
+    margin: 2% 30% 0 10%;
+    background-color: lemonchiffon;
+    box-shadow: 1px 1px 4px grey;
+}
+
+.detailcard{
+    width: 5%;
+}
+.goback{
+    position: absolute;
+    right: 100px;
+    font-size: larger;
+}
+.moreinfo{
+    display: flex;
+    justify-content: center;
+}
+.ratedcaution{
+    text-align: center;
+}
+.favouritedcaution{
+    text-align: center;
+}
+.searchbox{
+ margin: 8px;
+}
+.searchinput{
+    margin-right: 6px;
+    margin-bottom: 6px;
+}
+.optionlabel{
+    margin: 10px;
+}
+hr{
+    margin: 0 0 5px 0;
+}
+.footer{
+    bottom: 6px;
+    left: 50%;
+    margin: 2%;
+padding: 10px 0 1px 0px;
+    font-size: 1em;
+    color: white;
+    background-color: rgb(112, 139, 219);
+font-style: italic;
+}
+.genrebox{
+    margin: 0px 15px 5px 0;
+    padding:5px;
+    background-color:white;
+    box-shadow: 0px 1px 2px gray;
+}
+.genrelabel{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.poster{
+    width:31%;
+}
+.genrelist{
+padding: 0px 12px 0px 10px;
+display:inline-block;
+margin: 0;
+}
+.needs-validation{
+    display: flex;
+}
+.yearinput{
+    margin: 0 0 0 15px;
+}
+.yearlabel{
+    margin:16px 0 0 15px;
+}
+.sortlabel{
+    margin:10px 0 0 0;
+}
+.sortlist{
+    margin: 1px 0 0 0 ;
+}
+.heart{
+    margin: 2px;
+}
+.aboutbox{
+    margin:1% 0 22% 0;
+}
+.summarytitle{
+    font-weight: bold;
+}
+.announcement{
+    color:navy;
+    background-color: rgb(238, 233, 228);
+}
+body{
+    background-image: url('../images/video-production-4223885_1920.jpg');
+    background-size: cover;
+    background-attachment:fixed;
+}
