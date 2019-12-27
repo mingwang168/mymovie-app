@@ -36,7 +36,7 @@ const Discover = (props) => {
 
     useEffect(() => {
         const fetchMovie = async () => {
-            const res = await fetch(`https://api.themoviedb.org/3/discover/movie?api_key=a7913b39e5e5965bc0611cad50321e2a&language=en-US&sort_by=${sort}&include_adult=false&include_video=false&page=1&year=${year}&with_genres=${genre}`);
+            const res = await fetch(`https://api.themoviedb.org/3/discover/movie?api_key=a7913b39e5e5965bc0611cad50321e2a&language=en-US&sort_by=${sort}&include_adult=false&include_video=false&page=1&primary_release_year=${year}&with_genres=${genre}`);
             let data = await res.json();
             setMovieData(movieMaker(data.results));
         }

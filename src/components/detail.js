@@ -8,9 +8,8 @@ import Search from '../components/search';
 import MovieGrid from '../components/moviegrid';
 
 const Detail = (props) => {
-    const [md3, setMovieData] = useState(null);
     let acept = props.location.state;
-    //console.log(acept)
+    const [md3, setMovieData] = useState(null);
     let themovie = {
         poster: acept.poster,
         id: acept.id,
@@ -186,9 +185,10 @@ const Detail = (props) => {
         return items;
     }
 
+
     return (
         <main>
-            <Search lang='en_us' setMovieData={setMovieData} />
+            <Search lang='en_us' setMovieData={setMovieData}/>
             <hr />
             {<div className="container">
                 <div className="movieDetail">
@@ -212,7 +212,7 @@ const Detail = (props) => {
                 </div>
                 <Link className="goback" to="/" >Back to Home Page -></Link>
             </div>}
-            {md3 && <MovieGrid movies={md3} />}
+            {md3 && <MovieGrid movies={md3}/>}
         </main>
     );
 }

@@ -10,7 +10,9 @@ const Search = (props) => {
             if (search != '') {
                 const res = await fetch(`https://api.themoviedb.org/3/search/movie?api_key=a7913b39e5e5965bc0611cad50321e2a&language=${props.lang}&query=${search}&page=1`);
                 let data = await res.json();
+           //    props.setShowdetail(false);
                 props.setMovieData(movieMake(data.results));
+                
             }
         }
         fetchSearch();
@@ -24,7 +26,7 @@ const Search = (props) => {
     return (
         <form className="searchbox"onSubmit={handleSearchBox}>
             <input className="searchinput" name="searching" placeholder='movie name'></input>
-            <button className="search">Search</button>
+            <button className="btn btn-info">Search</button>
             <h5>Search > {search}</h5>
         </form>
 

@@ -5,8 +5,6 @@ import { Link, Redirect } from 'react-router-dom';
 const imagePath = 'https://image.tmdb.org/t/p/w342';
 
 const makeGrid = (arr) => {
-
-    
     return arr.map((item, i) => {
         const handlePoster = (poster) => {
             if (poster != null) {
@@ -18,14 +16,15 @@ const makeGrid = (arr) => {
 
         return (
             <div className="container card-group">
+                <hr/>
             <div key={i} className="card" >
                 <Link to={{pathname:'/detail',state:item}}><div>{handlePoster(item.poster)}</div> </Link>
                 <div className="card-body">
                     <h4 className="card-title">{item.title}</h4>
                     <p className="card-text">Release at: {item.releaseDate}</p>
                     <p className="card-text">Rating: {item.rating}</p>
-                    <span className="summarytitle">summary: </span>
-                    <small className="card-text summarytext">{item.summary}</small>
+                    <div className="summarytitle">summary: </div>
+                    <textarea className="card-text summarytext">{item.summary}</textarea>
                 </div>
                 <div className="card-footer">
                 <Link to={{pathname:'/detail',state:item}} className="gallery-item">
@@ -41,9 +40,7 @@ const makeGrid = (arr) => {
 }
 
 const MovieGrid = (props) => {
-
     return (
-
         <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
             {makeGrid(props.movies)}
         </div>
