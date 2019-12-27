@@ -1,5 +1,11 @@
 ﻿This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Deployment
+The build folder is ready to be deployed.
+You may serve it with a static server: 
+npm install -g serve
+serve -s build
 
+open browser and type in address:http://localhost:5000
 ## Available Scripts
 
 In the project directory, you can run:
