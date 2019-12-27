@@ -24,7 +24,7 @@ const makeGrid = (arr) => {
                     <p className="card-text">Release at: {item.releaseDate}</p>
                     <p className="card-text">Rating: {item.rating}</p>
                     <div className="summarytitle">summary: </div>
-                    <textarea className="card-text summarytext">{item.summary}</textarea>
+                    <p className="card-text summarytext">{item.summary}</p>
                 </div>
                 <div className="card-footer">
                 <Link to={{pathname:'/detail',state:item}} className="gallery-item">
