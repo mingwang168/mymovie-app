@@ -1,7 +1,7 @@
 ﻿This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 ## Deployment
-The build folder is ready to be deployed.
-####You may serve it with a static server: <br />
+The build folder is ready to be deployed.<br />
+###You may serve it with a static server: <br />
 npm install -g serve<br />
 serve -s build<br />
 
