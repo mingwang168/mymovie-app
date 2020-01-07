@@ -36,9 +36,11 @@
 }
 .ratedcaution{
     text-align: center;
+    margin-bottom: 28%;
 }
 .favouritedcaution{
     text-align: center;
+    margin-bottom: 28%;
 }
 .searchbox{
  margin: 8px;
@@ -124,16 +126,12 @@ margin: 0;
     font-weight: bold;
 }
 .summarytext{
-    overflow-y: scroll;
+    overflow-y: auto;
     height: 80px;
-    overflow-x:hidden;
+    overflow-x:auto;
     width:100%;
     font-size: smaller;
     border: none;
-}
-.announcement{
-    color:navy;
-    background-color: rgb(238, 233, 228);
 }
 body{
     background-image: url('../images/video-production-4223885_1920.jpg');
