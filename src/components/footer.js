@@ -7,7 +7,7 @@ const Footer = () =>  {
 
     return (
         <footer className="text-center footer">
-        <p>&copy; {y} Ming Wang</p>
+        <p>&copy; {y} Ming Wang and Anthony So</p>
         </footer>
     );
 }
