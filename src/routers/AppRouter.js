@@ -21,7 +21,7 @@ const AppRouter = () => (
                 <Route path="/discover"><Discover /></Route>
 				<Route path="/about"><About /></Route>
                 <Route path="/myfavourites"><MyFavourites /></Route>
-                <Route path="/myrated"><MyRated /></Route>*/}
+                <Route path="/myrated"><MyRated /></Route>
 				<Route><PageNotFound /></Route> 
 			</Switch>
 			<Footer />

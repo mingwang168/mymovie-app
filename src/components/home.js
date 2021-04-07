@@ -9,13 +9,12 @@ const Home = (props) => {
     const [md, setMovieData] = useState(null);
     const [choise, setChoise] = useState(props.choise);
     const [lang, setLang] = useState(props.lang);
-
+    const fetchMovie = async () => {
+        const res = await fetch(`https://api.themoviedb.org/3/movie/${choise}?api_key=a7913b39e5e5965bc0611cad50321e2a&language=${lang}&page=1`);
+        let data = await res.json();
+        setMovieData(movieMaker(data.results));
+    }
     useEffect(() => {
-        const fetchMovie = async () => {
-            const res = await fetch(`https://api.themoviedb.org/3/movie/${choise}?api_key=a7913b39e5e5965bc0611cad50321e2a&language=${lang}&page=1`);
-            let data = await res.json();
-            setMovieData(movieMaker(data.results));
-        }
         fetchMovie();
     }, [choise, lang])
 
